@@ -243,12 +243,11 @@
     letter-spacing: 0.5px;
 
 }
-
 .get_the_app{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 251, 247);
+    background-color: rgb(255,251,247);
     width: 100%;
     padding: 3rem 6rem;
 }
@@ -262,11 +261,11 @@
     gap: 1.5rem;
 }
 
-.get_the_app.semiContainer.left{
+.get_the_app .semiContainer .left{
     flex: 2;
 }
 
-.get_the_app.semiContainer.left img{
+.get_the_app .semiContainer .left img{
     width: 100%;
     object-fit: cover;
     object-position: center;
